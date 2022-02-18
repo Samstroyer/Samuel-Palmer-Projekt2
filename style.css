@@ -1,0 +1,30 @@
+* {
+  padding: 0;
+  margin: 0;
+}
+
+.gridContainer {
+  display: grid;
+  border: 1px solid red;
+  grid-template-columns: auto auto auto;
+  grid-template-rows: 100%;
+  height: 100vh;
+}
+
+.cookieContainer {
+  background-image: url(Images/cookieBakground.jpg);
+  background-repeat: no-repeat;
+  background-position: 50% -10%;
+  background-size: 100%;
+  border: 1px;
+}
+
+.test2 {
+  border: 1px solid blue;
+  background-color: red;
+}
+
+.test3 {
+  border: 1px solid blue;
+  background-color: green;
+}
