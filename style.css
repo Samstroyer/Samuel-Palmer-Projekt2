@@ -6,17 +6,34 @@
 .gridContainer {
   display: grid;
   border: 1px solid red;
-  grid-template-columns: auto auto auto;
+  grid-template-columns: 34% 32% 34%;
   grid-template-rows: 100%;
   height: 100vh;
 }
 
+.cookieRender {
+  justify-items: center;
+  align-items: center;
+  justify-content: center;
+  align-content: center;
+}
+
+.bigCookieRendering {
+  position: absolute;
+}
+
 .cookieContainer {
-  background-image: url(Images/cookieBakground.jpg);
+  background-color: #ff0ff0;
   background-repeat: no-repeat;
   background-position: 50% -10%;
   background-size: 100%;
   border: 1px;
+}
+
+#bigCookie {
+  width: 300px;
+  width: 400px;
+  padding-left: 20%;
 }
 
 .test2 {
