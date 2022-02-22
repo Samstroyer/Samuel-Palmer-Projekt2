@@ -12,6 +12,7 @@
 }
 
 .cookieRender {
+  display: flex;
   justify-items: center;
   align-items: center;
   justify-content: center;
@@ -19,7 +20,11 @@
 }
 
 .bigCookieRendering {
-  position: absolute;
+  position: fixed;
+  top: 0;
+  left: 0;
+  align-self: center;
+  justify-self: center;
 }
 
 .cookieContainer {
