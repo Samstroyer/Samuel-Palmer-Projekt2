@@ -11,7 +11,9 @@
   height: 100vh;
 }
 
-.cookieRender {
+#cookieRender {
+  width: inherit;
+  height: 55%;
   display: flex;
   justify-items: center;
   align-items: center;
@@ -20,19 +22,40 @@
 }
 
 .bigCookieRendering {
+  width: 20vw;
   position: fixed;
-  top: 0;
-  left: 0;
   align-self: center;
   justify-self: center;
 }
 
+.animation {
+  width: 30vw;
+  animation: cookieBackgoundAnimation 100s infinite;
+}
+
+@keyframes cookieBackgoundAnimation {
+  0% {
+    width: 30vw;
+    transform: rotate(0deg);
+  }
+  100% {
+    width: 30vw;
+    transform: rotate(360deg);
+  }
+}
+
 .cookieContainer {
+  display: flex;
   background-color: #ff0ff0;
-  background-repeat: no-repeat;
-  background-position: 50% -10%;
-  background-size: 100%;
-  border: 1px;
+  height: inherit;
+  justify-content: center;
+  align-content: center;
+  flex-direction: row;
+}
+
+#milkRender {
+  display: block;
+  background-color: violet;
 }
 
 #bigCookie {
