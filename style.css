@@ -54,8 +54,12 @@
 }
 
 #milkRender {
+  top: 90%;
+  width: 34%;
+  height: 10%;
   display: block;
-  background-color: violet;
+  position: fixed;
+  background-color: whitesmoke;
 }
 
 #bigCookie {
@@ -64,12 +68,33 @@
   padding-left: 20%;
 }
 
-.test2 {
-  border: 1px solid blue;
-  background-color: red;
+h5 {
+  font-weight: normal;
 }
 
-.test3 {
+.statSection {
+  display: flex;
+  flex-direction: column;
+  font-size: 3vw;
+  border: 1px solid blue;
+  background-color: red;
+  justify-content: space-evenly;
+  padding-left: 1ch;
+  padding-right: 1ch;
+  padding-top: 3ch;
+  padding-bottom: 5ch;
+}
+
+.shopSection {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-around;
   border: 1px solid blue;
   background-color: green;
+}
+
+button {
+  width: 80%;
+  height: 10ch;
 }

@@ -20,13 +20,43 @@
           <img
             src="Images/bigCookie.png"
             alt="The largest cookie the universe has seen!"
-            class="bigCookieRendering"
+            class="bigCookieRendering bigCookie"
           />
         </div>
+
         <div id="milkRender"></div>
       </div>
-      <div class="test2">2</div>
-      <div class="test3">3</div>
+
+      <div class="statSection">
+        <h3>Cookies: <span id="cookies">0</span></h3>
+        <h5>Total clicks: <span class="totalClicks">0</span></h5>
+        <h5>Cookies per second: <span class="cps">0</span></h5>
+        <h5>Total grandmas: <span class="grandmaAmount">0</span></h5>
+        <h5>Total factories: <span class="factoryAmount">0</span></h5>
+        <h5>Total colonies: <span class="colonyAmount">0</span></h5>
+        <h5>Total recipes: <span class="ancientRecipeAmount">0</span></h5>
+        <h5>
+          Total ancient grandmas: <span class="ancientGrandmaAmount">0</span>
+        </h5>
+      </div>
+
+      <div class="shopSection">
+        <button class="shopBtn" onclick="Purchase('grandma')">
+          Purchase Grandma: <span class="grandmaPrice">10</span>
+        </button>
+        <button class="shopBtn" onclick="Purchase('factory')">
+          Purchase Factory: <span class="factoryPrice">20</span>
+        </button>
+        <button class="shopBtn" onclick="Purchase('colony')">
+          Purchase Colony: <span class="colonyPrice">50</span>
+        </button>
+        <button class="shopBtn" onclick="Purchase('ancientRecipe')">
+          Purchase Ancient Recipe: <span class="ancientRecipePrice">200</span>
+        </button>
+        <button class="shopBtn" onclick="Purchase('ancientGrandma')">
+          Purchase Ancient Grandma: <span class="ancientGrandmaPrice">500</span>
+        </button>
+      </div>
     </div>
   </body>
 </html>
