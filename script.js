@@ -85,6 +85,9 @@ function Purchase(item) {
         shopObjects.grandmaPrice *= shopObjects.universalMultiplier;
         buildingsOwned[0]++;
         queriedObjects.totalGrandmas.textContent = buildingsOwned[0];
+        queriedObjects.grandmaPrice.textContent = Math.round(
+          shopObjects.grandmaPrice
+        );
       } else {
         console.log(
           "Nono, cookie monster is not getting enough cookies for that!"
@@ -97,6 +100,9 @@ function Purchase(item) {
         shopObjects.factoryPrice *= shopObjects.universalMultiplier;
         buildingsOwned[1]++;
         queriedObjects.totalFactories.textContent = buildingsOwned[1];
+        queriedObjects.factoryPrice.textContent = Math.round(
+          shopObjects.factoryPrice
+        );
       } else {
         console.log(
           "Nono, cookie monster is not getting enough cookies for that!"
@@ -109,6 +115,9 @@ function Purchase(item) {
         shopObjects.colonyPrice *= shopObjects.universalMultiplier;
         buildingsOwned[2]++;
         queriedObjects.totalColonies.textContent = buildingsOwned[2];
+        queriedObjects.colonyPrice.textContent = Math.round(
+          shopObjects.colonyPrice
+        );
       } else {
         console.log(
           "Nono, cookie monster is not getting enough cookies for that!"
@@ -121,6 +130,9 @@ function Purchase(item) {
         shopObjects.ancientRecipePrice *= shopObjects.universalMultiplier;
         buildingsOwned[3]++;
         queriedObjects.totalRecipes.textContent = buildingsOwned[3];
+        queriedObjects.ancientRecipePrice.textContent = Math.round(
+          shopObjects.ancientRecipePrice
+        );
       } else {
         console.log(
           "Nono, cookie monster is not getting enough cookies for that!"
@@ -133,6 +145,9 @@ function Purchase(item) {
         shopObjects.ancientGrandmaPrice *= shopObjects.universalMultiplier;
         buildingsOwned[4]++;
         queriedObjects.totalAncientGrandmas.textContent = buildingsOwned[4];
+        queriedObjects.ancientGrandmaPrice.textContent = Math.round(
+          shopObjects.ancientGrandmaPrice
+        );
       } else {
         console.log(
           "Nono, cookie monster is not getting enough cookies for that!"
